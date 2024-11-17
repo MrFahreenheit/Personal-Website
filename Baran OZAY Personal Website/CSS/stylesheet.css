@@ -1,0 +1,590 @@
+.main_navbar_ul {
+    background-color: #FA8072;
+    padding: 20px;
+}
+
+.main_navbar_ul>div>li {
+    display: inline-flex;
+}
+
+.main_navbar_ul>div>li>a {
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_navbar_ul>div>li :hover {
+    color: #d32f2f;
+    transition: 0.9s;
+}
+
+.div_photo {
+    height: 260px;
+    width: 260px;
+    border: 7px double #FA8072;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background-image: url('../Images/baran_profile_pic.jpg');
+    background-position: center;
+    background-size: cover;
+    background-clip: padding-box;
+}
+
+.out_frame {
+    border: 2px solid #d32f2f;
+    background-color: #FAFAFA;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h1_name {
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color: #d32f2f;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 60px;
+}
+
+.card1 {
+    border: 4px solid #d32f2f;
+    height: 550px;
+    margin-bottom: 90px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: auto;
+}
+
+.card2 {
+    border: 4px solid #d32f2f;
+    height: 550px;
+    margin-bottom: 90px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: auto;
+}
+
+.card3 {
+    border: 4px solid #d32f2f;
+    height: 550px;
+    margin-bottom: 90px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: auto;
+}
+
+.card_headers {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #d32f2f;
+    text-decoration: underline;
+}
+
+.card_details {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 36px;
+}
+
+@media (min-width: 320px) {
+    .card_details {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media (min-width: 576px) {
+    .card_details {
+        font-size: 26px;
+        line-height: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media (min-width: 768px) {
+    .card_details {
+        font-size: 30px;
+        line-height: 45px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media (min-width: 992px) {
+    .card_details {
+        font-size: 31px;
+        line-height: 43px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card_details {
+        font-size: 19px;
+        line-height: 26px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media (min-width: 1440px) {
+    .card_details {
+        font-size: 22px;
+        line-height: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media (min-width: 2560px) {
+    .card_details {
+        font-size: 38px;
+        line-height: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+.footer_ul {
+    background-color: #FA8072;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer_ul>div>div>div>ul>li {
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer_ul>div>div>div>ul>li>a {
+    color: white;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.copyright {
+    justify-content: center;
+    text-align: center;
+}
+
+/*Homepage styles are finished
+Work experience has started*/
+
+.photo1 {
+    height: 36rem;
+    background-image: url('../Images/uber1.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 4%;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text1 {
+    height: 36rem;
+    margin-bottom: 4%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+}
+
+.photo2 {
+    height: 36rem;
+    background-image: url('../Images/bartender1.jpeg');
+    background-position: 0;
+    background-size: cover;
+    margin-bottom: 4%;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text2 {
+    height: 36rem;
+    margin-bottom: 4%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+}
+
+.photo3 {
+    height: 36rem;
+    background-image: url('../Images/fastfood1.jpeg');
+    background-position: 0;
+    background-size: cover;
+    margin-bottom: 4%;
+    background-repeat: no-repeat;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text3 {
+    height: 36rem;
+    margin-bottom: 4%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+}
+
+@media (min-width: 320px) {
+    .photo2 {
+        background-position-x: -4rem;
+    }
+
+    .photo3 {
+        background-position: center;
+    }
+
+    .photoEducation2 {
+        background-position-x: 0;
+    }
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 17px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 16px;
+        line-height: 10px;
+    }
+
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 14.5px;
+        line-height: 24px;
+    }
+
+    .contactFormGenderLabel1, .contactFormGenderLabel2 {
+        column-gap: 4px;
+    }
+    .contactFormGenderLabel3{
+        column-gap: 6px;
+    }
+
+    #contactPostCode{
+        width: 5rem;
+    }
+}
+
+@media (min-width: 400px) {
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 19px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 16.5px;
+        line-height: 10px;
+    }
+}
+
+@media (min-width: 500px) {
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 21px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 18px;
+        line-height: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 20px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 17px;
+        line-height: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 23.5px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 21px;
+        line-height: 45px;
+    }
+
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    td{
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 19.5px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 17px;
+        line-height: 45px;
+    }
+
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 17px;
+        line-height: 10px;
+    }
+
+    td{
+        font-size: 1.7rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 22px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 19px;
+        line-height: 45px;
+    }
+
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 18.5px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 24px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 21px;
+        line-height: 45px;
+    }
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 21px;
+        line-height: 10px;
+    }
+}
+
+@media (min-width: 2560px) {
+
+    #text1,
+    #text2,
+    #text3 {
+        font-size: 24.5px;
+    }
+
+    #text1h,
+    #text2h {
+        font-size: 23px;
+        line-height: 45px;
+    }
+    #text1e,
+    #text2e,
+    #text3e,
+    #text4e {
+        font-size: 22px;
+        line-height: 10px;
+    }
+}
+
+/*Work experience styles are finished
+Hobbies section has started*/
+
+.photoHobbies1 {
+    height: 36rem;
+    background-image: url('../Images/guitar1.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 4%;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photoHobbies2 {
+    height: 36rem;
+    background-image: url('../Images/tennis1.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 4%;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Hobbies section has finished
+Education has started*/
+
+.photoEducation1 {
+    height: 36rem;
+    background-image: url("../Images/Education1.jpeg");
+    background-position: cover;
+    background-size: cover;
+    margin-bottom: 4%;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photoEducation2 {
+    height: 36rem;
+    background-image: url("../Images/Education2.jpeg");
+    background-size: cover;
+    margin-bottom: 4%;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photoEducation3 {
+    height: 36rem;
+    background-image: url("../Images/Education3.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 4%;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photoEducation4 {
+    height: 36rem;
+    background-image: url("../Images/Education4.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 4%;
+    border: 2px #d32f2f solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Education  section has finished
+Contact has started*/
+
+.contactTable{
+    margin-bottom: 2rem;
+    border-collapse: separate;
+}
+
+.contactFormGenderLabel1, .contactFormGenderLabel2, .contactFormGenderLabel3 {
+    display: flex;
+    justify-content: center;
+    text-align: start;    
+}
+
+form label, 
+form input, 
+form textarea, 
+form select {
+    margin-bottom: 1rem;
+}
+
